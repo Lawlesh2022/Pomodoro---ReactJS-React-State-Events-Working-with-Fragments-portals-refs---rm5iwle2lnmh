@@ -45,12 +45,14 @@ const App = () => {
     <div id="main">
     <h1>{workd}</h1>
     <h1>{breakd}</h1>
-    <input data-testid = "work-duration" onChange = {workdf}/>
-    <input data-testid = "break-duration" onChange = {breakdf}/>
-    <button data-testid = "set-btn" onClick= {setf}>Set</button>
     <button data-testid = "start-btn" onClick = {startf}>Start</button>    
     <button data-testid = "stop-btn" onClick = {stopf}>Stop</button>
     <button data-testid = "stop-btn" onClick = {resetf}>Reset</button>
+    <br/>
+    <br/>
+    <input data-testid = "work-duration" onChange = {workdf}/>
+    <input data-testid = "break-duration" onChange = {breakdf}/>
+    <button data-testid = "set-btn" onClick= {setf}>Set</button>    
     </div>
   )
 }
